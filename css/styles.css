@@ -1,0 +1,430 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    /* padding: 5vh 1.5vw 0 3vw; */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.top-bar {
+    width: 100%;
+    padding: 4vh 1.5vw 0 3vw;
+}
+.top-bar .top-icon {
+    padding: 10px 5px 0 5px;
+}
+.cm-text {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 17px;
+    /* color: #413c3c; */
+    color: #525659;
+    font-weight: 900;
+}
+.cm-img {
+    height: 70px;
+}
+.cm-text span:last-child {
+    font-size: 14px;
+}
+.bar .top-icon-bar {
+    position: absolute;
+    right: 3vw;
+    top: 5vh;
+    text-align: right;
+    color: #4e8edf;
+    font-size: 34px;
+}
+.menu {
+    display: flex;
+    padding-top: 1vh;
+    border-top: 2px solid #e6e5e5;
+    margin-left: 23vw;
+    padding-left: 15vw;
+}
+.menu span {
+    padding: 5px 20px;
+    font-size: 18px;
+    font-weight: 900;
+    cursor: pointer;
+}
+.menu span:hover {
+    background-color: #35414f;
+    color: #fff;
+}
+.photo-gallery {
+    padding: 2vh 1.5vw 0 3vw;
+}
+.slider-img {
+    width: 100%;
+    border-radius: 15px;
+    height: 78vh;
+}
+.search-panel {
+    margin-top: 25px;
+}
+.search-head {
+    font-size: 21px;
+    color: #298ece;
+    font-weight: 900;
+}
+.search-icon {
+    margin-top: 10px;
+    font-size: 22px;
+    padding: 2px 10px;
+}
+.input-group {
+    margin-top: 15px;
+    align-content: center;
+    margin-left: 8vw;
+    border: 2px solid #92b0f1;
+    border-radius: 35px;
+    max-width: 340px;
+    padding: 2px 20px;
+    color: #c8c8c8;
+}
+.form-control {
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: #c8c8c8;
+    font-weight: 300;
+}
+.form-control:active, .form-control:focus {
+    border: none;
+    outline: none;
+}
+.card-img {
+    
+}
+.card-section {
+    margin-top: 25px;
+}
+.abt-card {
+    background: url(../images/aboutmocollege.png);
+    width: 100%;
+    border-radius: 15px;
+    height: 54vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.abt-card .abt-icon {
+    top: 40%;
+    left: 10%;
+}
+.abt-head, .login-head, .team-head {
+    font-family: 'Roboto';
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    font-size: 30px;
+    font-weight:500;
+    color: #fff;
+}
+.login-card {
+    background: url(../images/login.png);
+    width: 100%;
+    border-radius: 15px;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.team-card {
+    background: url(../images/team.png);
+    width: 100%;
+    border-radius: 15px;
+    height: 25vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 3.5vh;
+}
+.team-icon {
+    position: absolute;
+    bottom: 25%;
+    left: 20px;
+}
+.login-icon {
+    position: absolute;
+    bottom: 25%;
+    left: 5px;
+}
+.cards-container {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 1.5vw 0 3vw;
+}
+.progress-card {
+    background: url(../images/progress.png);
+}
+.faq-card {
+    background: url(../images/FAQ.png);
+}
+.story-card {
+    background: url(../images/ourstory.png);
+}
+.partners-card {
+    background: url(../images/partner.png);
+}
+.progress-card, .story-card, .partners-card, .faq-card {
+    width: 100%;
+    height: 40vh;
+    border-radius: 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.prog-head, .faq-head, .story-head, .partner-head {
+    position: absolute;
+    bottom: 25px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+.prog-head {
+    left: 25px;
+}
+.story-head, .partner-head, .faq-head {
+    right: 25px;
+}
+.progress-icon {
+    position: absolute;
+    bottom: 30%;
+    left: 20px;
+}
+.faq-icon {
+    position: absolute;
+    bottom: 40%;
+    left: 45px;
+}
+.story-icon, .partner-icon {
+    width: 8.5vw;
+    position: absolute;
+    bottom: 30%;
+    right: 20px;
+}
+.moto {
+    border-right: 1px solid #ccc;
+    font-family: sans-serif;
+    padding: 0 1.5vw 0 3vw;
+    margin-bottom: 5vh;
+}
+.moto-head {
+    /* color: #298ece; */
+    color: #419fd1;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.moto-sub-head {
+    font-size: 34px;
+    font-weight: 600;
+    color: #807e7e;
+    margin-top: 45px;
+}
+.moto-desc, .right-desc {
+    color: #807e7e;
+    font-size: 18px;
+}
+.cst-brdr {
+    margin-top: 0;
+    position: absolute;
+    height: 8px;
+    width: 12%;
+    left: 6%;
+    margin: 10px 0 15px 0;
+    background-color: #d1cfcf;
+    border-radius: 5px;
+}
+.vision-btn {
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 16;
+    padding: 12 px 20px;
+    background-color: #3a67c2;
+    border-radius: 30px;
+}
+.vision-btn i {
+    font-size: 12px;
+    font-weight: 100;
+}
+.vision-btn span {
+    font-weight: 500;
+}
+.top-btn-grp span {
+    padding: 20px 20px;
+}
+.top-btn-grp span:not(:last-child) {
+    border-right: 1px solid #ccc;
+    /* margin-right: 30px;
+    padding-right: 30px; */
+}
+.right-btn {
+    color: #419fd1;
+    font-family: 'Roboto';
+    font-size: 26px;
+    padding: 5px 30px;
+    background-color: #fff;
+    outline: none;
+    border: 0;
+    border-radius: 30px;
+}
+.active-btn{
+    color: #fff;
+    background-color: #3a67c2;
+}
+.right-btn:hover {
+    color: #fff;
+    background-color: #3a67c2;
+}
+.right-desc {
+    font-family: 'Roboto';
+    padding: 50px 20px 10px 50px;
+    font-weight: 500;
+}
+.vision-img {
+    width: 12vw;
+    height: 25vh;
+}
+.leaders {
+    background-color: #ddebee;
+    padding: 3vh 1.5vw 3vh 3vw;
+}
+.leader-head {
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    color: #40a0d2;
+    padding-top: 40px;
+}
+.lead-desc {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    margin-top: 0;
+    padding-top: 0;
+}
+.sec-break {
+    height: 100%;
+    padding-left: 15px;
+}
+.profile-img {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+}
+.img-desc {
+    margin: 0 auto;
+}
+.notification {
+    padding: 2vh 1.5vw 2vh 3vw;
+}
+.b2 {
+    left: 2%;
+}
+.b3 {
+    left: 5.5%;
+}
+.notification .panel:first-child {
+    border-right: 1px solid #ccc;
+}
+.notification .panel:last-child {
+    padding-left: 40px;
+}
+.btn-grp {
+    padding-top: 40px;
+}
+.not-btn {
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 28px;
+    background-color: #eaeaea;
+    border-radius: 30px;
+}
+.active-not, .not-btn:hover {
+    background-color: #4d94d2;
+    color: #fff;
+    box-shadow: 5px 10px 15px 2px #b1c2e6;
+}
+.photos {
+    padding-top: 40px;
+}
+.g-img {
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 1px 5px 15px 2px #ccc;
+}
+.view {
+    padding: 10px 50px;
+    font-size: 18px;
+}
+.not-panel {
+    padding: 25px 0 0 0 ;
+}
+.panel .not-panel:first-child {
+    padding-top: 20px;
+}
+.not-img {
+    width: 140px;
+    height: 80px;
+    background-color: #cfd7d9;
+}
+.not-desc {
+    font-family: 'Roboto';
+    padding: 8px 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: #6a6a6a;
+}
+.date {
+    margin: 10px 0 0 0;
+    color: #8cddd5;
+}
+.footer {
+    padding: 3vh 1.5vw 3vh 3vw;
+    background-color: #35414f;
+    color: #b2bbbf;
+}
+.od-logo {
+    width: 9vw;
+    padding: 10px 10px 20px 10px;
+}
+.logo-desc {
+    font-size: 18px;
+    padding: 0 15px;
+    line-height: 22px;
+}
+.footer-head {
+    font-size: 26px;
+}
+.b4 {
+    left: 3%;
+    width: 70px;
+    height: 5px;
+    background-color: #f6b774;
+}
+.b5 {
+    left: 25%;
+    width: 70px;
+    height: 5px;
+    background-color: #f6b774;
+}
+.footer-section {
+    padding: 35px 20px 10px 10px ;
+}
+.addr-desc {
+    padding-top: 40px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.links {
+    padding-left: 80px;
+}
+.footer-section ul {
+    padding-top: 40px;
+    list-style: none;
+    padding-left: 0;
+    font-size: 18px;
+}
